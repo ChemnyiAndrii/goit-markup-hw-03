@@ -5,7 +5,6 @@
 }
 html {
   box-sizing: border-box;
-  max-width: 1600px;
 }
 a {
     text-decoration: none;
@@ -227,6 +226,10 @@ footer p{
    background-color: #2196F3;
    color:var(--footer-color);
 }
+.conteiner-portfolio{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 /*Проекти Портфоліо*/
 /*розкоментувати після того як зробити картинку фоном*/
 
@@ -300,6 +303,7 @@ footer p{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color:var(--footer-color);
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 .bottom-baaner-conteiner{
